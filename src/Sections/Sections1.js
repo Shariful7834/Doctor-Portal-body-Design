@@ -11,7 +11,7 @@ const Sections1 = () => {
     return (
         <div className='mt-5'>
            <div>
-           <Row className='d-flex justify-content-center align-items-center gap-3'>
+           <Row className='mt-5 d-flex justify-content-center align-items-center gap-3'>
                 <Col className='p-5' lg='3' style={{backgroundColor:'tomato'}}> 
                 <div className='d-flex justify-content-around align-items-center'>
                     

@@ -7,14 +7,14 @@ import { Row } from 'react-bootstrap';
 const Blogs = () => {
     return (
         
-           <div className='mt-5'>
-            <h2>Blogs</h2>
+           <div className='my-5 container'>
+            <h2 className='my-5'>Blogs</h2>
               <Row>
 
-<Col lg='6'>
-    <Image src='https://thumbs.dreamstime.com/b/handwriting-text-did-you-know-question-concept-meaning-asking-facts-informations-trivia-competition-written-notebook-book-114832979.jpg'></Image>
+<Col lg='6' className='bg-light'>
+    <Image className='img-fluid w-75 mt-5' src='https://thumbs.dreamstime.com/b/handwriting-text-did-you-know-question-concept-meaning-asking-facts-informations-trivia-competition-written-notebook-book-114832979.jpg'></Image>
 </Col>
-<Col lg='6'>
+<Col lg='6'className='bg-light'>
 <Accordion defaultActiveKey={['0']} alwaysOpen>
     <Accordion.Item eventKey="0">
         <Accordion.Header>Difference Between JavaScript vs Node Js</Accordion.Header>
