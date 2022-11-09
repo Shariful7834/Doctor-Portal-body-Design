@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import Spinner from 'react-bootstrap/Spinner';
 const SpinnerLoading = () => {
     const [loading, setLoading] = useState(true)
-    const name = 'shariful islam'
+    const Fname = {
+        name: 'Shariful Islam'
+    }
     // if(name){
     //     setLoading(false)
     // }
@@ -12,7 +14,7 @@ const SpinnerLoading = () => {
     }
     return (
         <div className='container '>
-            <h1>{`your name is ${name}`}</h1>
+            <h1>{`${Fname.name}`? setLoading(true) : loading}</h1>
               
                 
         </div>
