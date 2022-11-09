@@ -6,6 +6,7 @@ import { ImLocation2 } from 'react-icons/im';
 import { FiPhoneCall } from 'react-icons/fi';
 import Section2 from './Section2';
 import Blogs from './Blogs/Blogs';
+import SpinnerLoading from './Spinner/SpinnerLoading';
 
 const Sections1 = () => {
     return (
@@ -55,6 +56,7 @@ const Sections1 = () => {
                 
                 <Section2></Section2>
                 <Blogs></Blogs>
+                <SpinnerLoading></SpinnerLoading>
 
             
         </div>
