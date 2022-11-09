@@ -5,6 +5,7 @@ import { BiTime } from 'react-icons/bi';
 import { ImLocation2 } from 'react-icons/im';
 import { FiPhoneCall } from 'react-icons/fi';
 import Section2 from './Section2';
+import Blogs from './Blogs/Blogs';
 
 const Sections1 = () => {
     return (
@@ -53,6 +54,7 @@ const Sections1 = () => {
            </div>
                 
                 <Section2></Section2>
+                <Blogs></Blogs>
 
             
         </div>
